@@ -11,8 +11,13 @@ body{
 }
 header{
     background-color: #4F67FF;
-    padding: 2rem 8rem;
+    padding: 2rem 8rem 0rem 8rem;
    
+}
+
+.swiper{
+    padding: 2rem 8rem;
+    margin: 4rem 0;
 }
 
 
@@ -227,6 +232,10 @@ section span svg{
         align-items: center;
         gap: 2rem;
     
+    }
+    section iframe{
+        width:560px;
+        height:315px;
     }
     .span-group{
         flex-direction: column;
