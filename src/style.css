@@ -16,8 +16,9 @@ header{
 }
 
 .swiper,.swiper2{
-    padding: 2rem 8rem;
-    margin: 4rem 0;
+    padding: 0rem 8rem;
+    margin-top: .5rem;
+    margin-bottom: 4rem;
 }
 
 
