@@ -44,3 +44,37 @@ const swiper = new Swiper('.swiper', {
    
   });
 
+  const swiper2 = new Swiper('.swiper2', {
+    modules: [Navigation,Autoplay],
+   
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+   
+     // If we need pagination
+ 
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next2',
+    prevEl: '.swiper-button-prev2',
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 4,
+      spaceBetween: 50,
+    },
+  },
+  
+   
+  });
+
